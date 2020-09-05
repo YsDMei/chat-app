@@ -84,7 +84,10 @@
   overflow: scroll;
 }
 
-.message {
+.messages {
+  background-color: #fafafa;
+  height: calc(100vh - 100px - 90px);
+  padding: 0 40px;
   margin: 10px 0;
 }
 
@@ -120,10 +123,17 @@
   display: flex;
 }
 
+.form {
+  background-color: #dddddd;
+  height: 90px;
+  padding: 20px 40px;
+  display: flex;
+}
+
 .form-input {
   background-color: white;
-  width: 100%;
   display: flex;
+  width: 100%;
 }
 
 .form-message {
